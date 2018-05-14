@@ -14,16 +14,18 @@
 # For use by Computer System 2 Students at the University of Southampton
 # All settings are based on an at90usb1286 chip, using dfu-programmer as the upload tool
 #
+# N.B.: The CMake proejct needs to be reloaded every time a new source file is created
+#
 # Setup Instructions (CLion):
 # create a new CLion project
-# Set the cmake_minimum_required on line 35 to the version of cmake you are using e.g. "cmake_minimum_required(VERSION 3.0)"
-# Set the name on line 57 of this file to the CLion project name you set above e.g. "project(Week4_task C)"
+# Set the cmake_minimum_required on line 37 to the version of cmake you are using e.g. "cmake_minimum_required(VERSION 3.0)"
+# Set the name on line 59 of this file to the CLion project name you set above e.g. "project(Week4_task C)"
 # copy this and the generic-gcc-avr.cmake into the root folder directory of the CLion project overwriting any conflicts
 # Reload the CMake project in CLion
 #
 # Setup Instructions (general):
-# Set the cmake_minimum_required on line 35 to the version of cmake you are using e.g. "cmake_minimum_required(VERSION 3.0)"
-# Set the name on line 49 of this file to anything you like e.g. "project(Week4_task C)"
+# Set the cmake_minimum_required on line 37 to the version of cmake you are using e.g. "cmake_minimum_required(VERSION 3.0)"
+# Set the name on line 51 of this file to anything you like e.g. "project(Week4_task C)"
 #
 # Any issues you can email me at jb21g14@soton.ac.uk or create an issue in the github project
 ##################################################################################
